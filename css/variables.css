@@ -1,0 +1,6 @@
+:root {
+  --black: #0a0a0a;
+  --gray-text: rgba(0, 0, 0, 0.4);
+  --gray-border: rgba(0, 0, 0, 0.1);
+  --gray-chevron: rgba(0, 0, 0, 0.2);
+}

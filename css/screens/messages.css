@@ -1,0 +1,15 @@
+.messages-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+.messages-header__column span {
+  font-size: larger;
+}
+.messages-header__column:nth-child(odd) {
+  color: #1783ff;
+}
+.messages-header__column:nth-child(2) {
+  font-weight: 600;
+}
