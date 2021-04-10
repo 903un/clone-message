@@ -2,7 +2,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
+  padding: 20px 20px;
+  position: fixed;
+  top: 50px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: white;
 }
 .messages-header__column span {
   font-size: larger;
@@ -12,4 +17,25 @@
 }
 .messages-header__column:nth-child(2) {
   font-weight: 600;
+}
+.search-bar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 5px 10px;
+  margin: 0px 20px;
+  background-color: var(--gray-border);
+  border-radius: 10px;
+}
+.search-bar i {
+  color: var(--gray-text);
+}
+.search-bar input {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  margin-left: 4px;
+  width: 100%;
+}
+.search-bar input:focus::placeholder {
+  color: transparent;
 }
